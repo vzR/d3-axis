@@ -155,7 +155,7 @@ var xAxis = d3.axisBottom(x)
     .tickValues([1, 2, 3, 5, 8, 13, 21]);
 ```
 
-The explicit tick values take precedent over the tick arguments set by [*axis*.tickArguments](#axis_tickArguments). However, any tick arguments will still be passed to the scale’s [tickFormat](#axis_tickFormat) function if a tick format is not also set.
+The explicit tick values take precedence over the tick arguments set by [*axis*.tickArguments](#axis_tickArguments). However, any tick arguments will still be passed to the scale’s [tickFormat](#axis_tickFormat) function if a tick format is not also set.
 
 <a name="axis_tickFormat" href="#axis_tickFormat">#</a> <i>axis</i>.<b>tickFormat</b>([<i>format</i>]) [<>](https://github.com/d3/d3-axis/blob/master/src/axis.js#L136 "Source")
 
